@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="You should call :" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Contact Name : " />
+
+        <TextView
+            android:id="@+id/tvContactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Contact Number : " />
+
+        <TextView
+            android:id="@+id/tvContactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGetAnotherContact"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Another Contact" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnContactCalled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Challenge accepted" />
+
+        <Button
+            android:id="@+id/btnContactNotCalled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Challenge refused" />
+    </LinearLayout>
+
+
+</LinearLayout>

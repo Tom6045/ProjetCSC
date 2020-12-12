@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnGamePreferences"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10sp"
+        android:textSize="13sp"
+        android:text="Game Preferences" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enjoy this game!"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start the game!"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAddPlayers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add a player"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnClearPlayers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear Players" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPlayerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="List of players :" />
+
+    <ListView
+        android:id="@+id/lvPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

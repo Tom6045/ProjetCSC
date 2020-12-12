@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="game_prefs">
+
+
+    <CheckBoxPreference
+        android:title="Contact game"
+        android:summaryOff="Do not play with"
+        android:summaryOn="Play with"
+        android:key="playWithContactGame" />
+
+    <ListPreference
+        android:title="Vitesse"
+        android:key="vitesse"
+        android:entries="@array/key"
+        android:entryValues="@array/value"
+        android:dialogTitle="Choisir la vitesse:"
+        android:persistent="true" />
+</PreferenceScreen>

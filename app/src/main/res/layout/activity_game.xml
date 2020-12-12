@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <Button
+        android:id="@+id/btnPokemonGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Pokemon Game" />
+
+    <Button
+        android:id="@+id/btnContactGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Contact Game" />
+
+    <Button
+        android:id="@+id/btnSlowMovementGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Slow Movement Game" />
+
+    <Button
+        android:id="@+id/btnShakeGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Shake Game" />
+
+    <Button
+        android:id="@+id/btnLightGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Light Game" />
+
+    <Button
+        android:id="@+id/btnFastPassGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Fast Pass Game" />
+
+    <Button
+        android:id="@+id/btnMovementGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Movement Game" />
+
+</LinearLayout>

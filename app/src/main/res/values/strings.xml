@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Funny game</string>
+
+    <string name="win_message_start">You win</string>
+    <string name="win_message_end_single">point!</string>
+    <string name="win_message_end_multiple">points!</string>
+
+    <string name="lose_message_start">You lose</string>
+    <string name="lose_message_end_single">point!</string>
+    <string name="lose_message_end_multiple">points!</string>
+
+    <array name="key"> <!-- Petite=1, Moyenne=5, Grande=20 -->
+        <item>"Petite"
+        </item>
+        <item>"Moyenne"
+        </item>
+        <item>"Grande"
+        </item>
+    </array>
+    <array name="value">
+        <item>"1"
+        </item>
+        <item>"5"
+        </item>
+        <item>"20"
+        </item>
+    </array>
+
+</resources>
